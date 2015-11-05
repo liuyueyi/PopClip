@@ -43,7 +43,7 @@
         </dict>
     </array>
     <key>Extension Identifier</key>
-    <string>mogujie.hui.popclip.extension.date-covert</string>
+    <string>hust.hui.popclip.extension.date-covert</string>
     <key>Required Software Version</key>
     <integer>693</integer>
 </dict>
