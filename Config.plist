@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>After</key>
+            <string>paste-result</string>
+            <key>Regular Expression</key>
+            <string>^(\d*\.)?\d+</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Shell Script File</key>
+            <string>date.php</string>
+            <key>Title</key>
+            <string>Date</string>
+        </dict>
+        <dict>
+            <key>After</key>
+            <string>paste-result</string>
+            <key>Regular Expression</key>
+            <string>^[0-9]{1,4}[-/](((0?[13578]|(10|12))[/-]([1-2][0-9]|3[0-1]|0?[1-9]))|(0?2[/-]([1-2][0-9]|0?[1-9]))|((0?[469]|11)[/-]([1-2][0-9]|30|0?[1-9])))(\s(([01]?[0-9])|(2[0-3])):[0-5]?[0-9](:[0-5]?[0-9])?)?</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Shell Script File</key>
+            <string>time.php</string>
+            <key>Title</key>
+            <string>Time</string>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <string>Search the selected text with online dictionary. Supports dictionary.com, youdao.com,dict.cn</string>
+    <key>Extension Name</key>
+    <string>Date</string>
+    <key>Credits</key>
+    <array>
+        <dict>
+            <key>Link</key>
+            <string>mailto:bangzewu@126.com</string>
+            <key>Name</key>
+            <string>时间转换</string>
+        </dict>
+    </array>
+    <key>Extension Identifier</key>
+    <string>hust.hui.popclip.extension.date-covert</string>
+    <key>Required Software Version</key>
+    <integer>693</integer>
+</dict>
+</plist>
