@@ -1,20 +1,9 @@
 <?php 
 
-// 如果$text只有1位的时候，前置补0
-function fill0($text)
-{
-    if(strlen($text) == 1) {
-        return '0' . $text;
-    } else {
-        return $text;
-    }
-}
-
 function convert16($ch)
 {
     $hex = base_convert(ord($ch), 10, 16);
-    $ans = fill0($hex);
-    return $ans;
+    return str_pad($hex, 2, 0, STR_PAD_LEFT); // 如果不满足2位，则左补齐0
 }
 
 // 这个函数有问题，对于符号的抓吗不对
