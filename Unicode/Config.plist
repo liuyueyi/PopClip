@@ -14,7 +14,19 @@
             <key>Shell Script File</key>
             <string>u2c.php</string>
             <key>Title</key>
-            <string>U2C</string>
+            <string>2UTF8</string>
+        </dict>
+        <dict>
+            <key>After</key>
+            <string>paste-result</string>
+            <key>Regular Expression</key>
+            <string>*</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Shell Script File</key>
+            <string>c2u.php</string>
+            <key>Title</key>
+            <string>2Unicode</string>
         </dict>
     </array>
     <key>Extension Description</key>
