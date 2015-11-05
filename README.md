@@ -51,3 +51,11 @@ Plugin
      
    - **TODO：** 支持Emoj表情的编码
 
+
+TIP
+---
+打包安装方法
+
+- 新建一个文件夹，后缀为.popclipext，将.plist和脚本文件拷贝到新的文件夹下
+- 压缩： `zip -r xxx.popclipextz  xxx.popclipext/`
+- 双击上面生成的文件，确认安装即可
