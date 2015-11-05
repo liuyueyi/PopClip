@@ -59,3 +59,5 @@ TIP
 - 新建一个文件夹，后缀为.popclipext，将.plist和脚本文件拷贝到新的文件夹下
 - 压缩： `zip -r xxx.popclipextz  xxx.popclipext/`
 - 双击上面生成的文件，确认安装即可
+
+说明： 上面新建的文件夹，一定要以.popclipext结尾
