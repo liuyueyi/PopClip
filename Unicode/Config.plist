@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>After</key>
+            <string>paste-result</string>
+            <key>Regular Expression</key>
+            <string>*</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Shell Script File</key>
+            <string>u2c.php</string>
+            <key>Title</key>
+            <string>U2C</string>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <string>Search the selected text with online dictionary. Supports dictionary.com, youdao.com,dict.cn</string>
+    <key>Extension Name</key>
+    <string>Unicode</string>
+    <key>Credits</key>
+    <array>
+        <dict>
+            <key>Link</key>
+            <string>mailto:bangzewu@126.com</string>
+            <key>Name</key>
+            <string>Unicode转换</string>
+        </dict>
+    </array>
+    <key>Extension Identifier</key>
+    <string>hust.hui.popclip.extension.unicode-covert</string>
+    <key>Required Software Version</key>
+    <integer>693</integer>
+</dict>
+</plist>

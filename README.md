@@ -22,3 +22,12 @@ Connect me
 ----
 mail to: bangzewu@126.com
 
+
+***
+
+Plugin
+---
+1. unicode字符转中文的插件： pkg/Unicode.popclipext, 安装方法依然是双击
+
+   源码在 Unicode文件夹下
+
