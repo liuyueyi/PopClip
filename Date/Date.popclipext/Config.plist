@@ -10,9 +10,9 @@
             <key>Regular Expression</key>
             <string>^(\d*\.)?\d+</string>
             <key>Script Interpreter</key>
-            <string>/usr/bin/php</string>
+            <string>/usr/bin/python</string>
             <key>Shell Script File</key>
-            <string>date.php</string>
+            <string>date.py</string>
             <key>Title</key>
             <string>Date</string>
         </dict>

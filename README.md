@@ -18,6 +18,8 @@ Source Code
 
 后续需要考虑日期的多样性转换支持
 
+添加了一个python版本的转换，原理基本相同，都是从系统环境中获取参数， `os.getenv('POPCLIP_TEXT')`
+
 ### 2. Unicode/
 unicode和utf8的相互转换
 
