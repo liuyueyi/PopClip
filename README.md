@@ -18,13 +18,15 @@ Source Code
 
 后续需要考虑日期的多样性转换支持
 
-添加了一个python版本的转换，原理基本相同，都是从系统环境中获取参数， `os.getenv('POPCLIP_TEXT')`
+添加了一个python版本的转换，原理基本相同，都是从系统环境中获取参数，`os.getenv('POPCLIP_TEXT')`
 
 ### 2. Unicode/
 unicode和utf8的相互转换
 
 后续完善emoj表情的支持
 
+### 3. Base/
+base64的编码 解码
 
 Connect me
 ----
@@ -53,6 +55,12 @@ Plugin
      
    - **TODO：** 支持Emoj表情的编码
 
+3. base64编码和解码插件 pkg/Base64.popclipextz
+   
+    - 利用php的 `base64_encode(); base64_decode()` 函数，对字符串进行base64编码和解码
+    - 使用样例如下:
+
+    ![base64转码&编码](image/base.png)
 
 TIP
 ---
