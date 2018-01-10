@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>After</key>
+            <string>paste-result</string>
+            <key>Regular Expression</key>
+            <string>*</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Shell Script File</key>
+            <string>urlenc.php</string>
+            <key>Title</key>
+            <string>UrlEnc</string>
+        </dict>
+        <dict>
+            <key>After</key>
+            <string>paste-result</string>
+            <key>Regular Expression</key>
+            <string>*</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Shell Script File</key>
+            <string>urldec.php</string>
+            <key>Title</key>
+            <string>UrlDec</string>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <string>Url Encode or Decode</string>
+    <key>Extension Name</key>
+    <string>URL</string>
+    <key>Credits</key>
+    <array>
+        <dict>
+            <key>Link</key>
+            <string>mailto:bangzewu@126.com</string>
+            <key>Name</key>
+            <string>URL编码/解码</string>
+        </dict>
+    </array>
+    <key>Extension Identifier</key>
+    <string>hust.hui.popclip.extension.url-code</string>
+    <key>Required Software Version</key>
+    <integer>697</integer>
+</dict>
+</plist>
+
