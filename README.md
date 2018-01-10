@@ -4,7 +4,7 @@ About
 
 Install
 ----
-1. 安装popclip
+1. 安装popclip [点击下载](popclip.dmg)
 2. 双击 pkg文件夹下面的 Date.popclipext（实际上是个文件夹，扩展名为popclipext）
 3. 同意安装
 
@@ -27,6 +27,11 @@ unicode和utf8的相互转换
 
 ### 3. Base/
 base64的编码 解码
+
+
+### 4. Json/
+- 替换json串内的空白字符
+- json串格式化
 
 Connect me
 ----
@@ -61,6 +66,14 @@ Plugin
     - 使用样例如下:
 
     ![base64转码&编码](image/base.png)
+
+4. json格式化插件 pkg/Json.popclipextz
+
+	- 源码在 Json文件看内
+    - 测试case : `{"l1":{"l1_1":["hello world","whet    happened!      "],"l1_2":{"l1_2_1":121}},"l2":{"l2_1":null,"l2_2":true,"l2_3":{}}}`
+	- 实测演示:
+
+	![json](image/json.gif)	
 
 TIP
 ---
