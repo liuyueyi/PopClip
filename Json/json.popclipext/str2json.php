@@ -4,5 +4,5 @@ if(empty($input)) {
     echo ''; 
 } else {
     $param = json_decode($input);
-	echo json_encode($param, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+	echo json_encode($param, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
 }
